@@ -1,5 +1,5 @@
 resource "aws_s3_bucket" "punnie_bucket" {
-    bucket = var.bucket_name
+    bucket = punnie_pail
 
     tags = {
         UserUuid = var.user_uuid
